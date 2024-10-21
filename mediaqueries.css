@@ -1,0 +1,125 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+
+    }
+
+    .about-containers{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    #desktop-nav {
+        display: none;
+    }
+
+
+    #hamburger-nav{
+        position: relative;
+        display: flex;
+        z-index: 10;
+    }
+
+    #experience, 
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    .section-container {
+        display: block;
+    }
+
+    #profile {
+        flex-direction: column;
+    }
+    
+
+    section, .section-container {
+        height: fit-content;
+    }
+        
+    section {
+        margin: 0 5%;
+    }
+
+    .section_text, .description  {
+        height: auto;
+        width: 90%;
+        margin: 20px auto;
+        order: 2;
+    }
+
+    .section__pic-container img {
+        width: 65vw;
+        margin-top: 4rem;
+        z-index:1;
+    }
+
+    .section__pic2-container {
+        width: 200px;
+        height: 300px;
+        margin: 0 auto 2rem;
+        position: relative;
+    }
+
+    .text-container{
+        margin: 10px 0;
+    }
+
+    .about-containers {
+        margin-top: 0;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .project1, .project2, .project3, .project4, .project5{
+        width: 90vw;
+        z-index:1;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #experience {
+        margin: 50px auto;
+    }
+
+    #experience::after{
+        left: 31px;
+    }
+
+    .experience-details-container{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+
+    .text-box{
+        font-size: 13px;
+    }
+
+    .text-box small {
+        margin-bottom:10px;
+    }
+    
+    .right {
+        left: 0;
+    }
+
+    .left img, .right img{
+        left: 10px;
+    }
+
+    .left-container-arrow, .right-container-arrow {
+        border-right: 15px solid #fff;
+        border-left: 0;
+        left: -15px;
+    }
+
+}
